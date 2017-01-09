@@ -2,14 +2,17 @@
 /*
 
 
-install:
-yum install perf
-yum -y install bison yacc
-yum -y install flex
-yum install patch
-yum install glibc-static
+centos 6.5  
+install:  
+yum install perf  
+yum -y install bison yacc  
+yum -y install flex  
+yum install patch  
+yum install glibc-static  
+autoreconf -fvi  
+./configure  
+make & make install  
 
-install autoreconf
 
 
 
