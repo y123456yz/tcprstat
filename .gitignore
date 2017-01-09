@@ -31,3 +31,24 @@
 # Debug files
 *.dSYM/
 *.su
+
+.deps
+Makefile
+Makefile.in
+aclocal.m4
+autom4te.cache
+autoscan.log
+config.log
+config.status
+configure
+configure.scan
+libtool
+stamp-h1
+config.h
+config.h*
+core.*
+compile
+install-sh
+missing
+depcomp
+INSTALL
