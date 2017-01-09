@@ -33,6 +33,8 @@ char *usage_msg =
     "       %s --version | --help\n"
     "\n"
     "\t--read <file>, -r    Capture from pcap file <file>, not live.\n"
+    "\t--time <ms>, -T     time delay > -T(time) count stastic.\n"
+    "\t--log  <file>, -o   if time dealy > -T(time), timestamp record to log file.\n"
     "\t--local <addresses>, -l\n"
     "\t                     <addresses> is a comma-separated list of ip\n"
     "\t                     addresses, which are used as the local list of\n"
@@ -67,6 +69,7 @@ char *usage_msg =
     "\t                     the header is shown.\n"
     "\t--interval <seconds>, -t\n"
     "\t                     Output interval. Default is %d.\n"
+    
     "\t--iterations <n>, -n\n"
     "\t                     Output iterations. Default is %d, 0 is infinity\n"
     "\n"
