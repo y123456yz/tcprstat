@@ -1,4 +1,19 @@
 
+/*
+
+
+install:
+yum install perf
+yum -y install bison yacc
+yum -y install flex
+yum install patch
+yum install glibc-static
+
+install autoreconf
+
+
+
+
 服务器时延统计工具，增加时延阈值统计，记录超过阈值的包个数，并把数据包时间戳记录到日志文件，这样可以更加时间戳快速定位到抓包文件，所有参数可配置。
 统计信息:
 timestamp:时间戳 
@@ -47,16 +62,6 @@ timetamp.txt
 
 
 
-
-
-
-
-
-
-
-
-
-
 编译说明:  依赖pthread线程静态库
 编译tcprstat
 
@@ -98,3 +103,4 @@ rpm -ivh glibc-static-2.12-1.25.el6.x86_64.rpm
 问题解决。编译好的文件再src目录下：tcprstat tcprstat-static
 
 在RHEL上静态链接库缺失导致编译失败的问题很常见，故记录之。
+*/
