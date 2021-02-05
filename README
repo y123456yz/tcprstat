@@ -1,6 +1,6 @@
                                  ~ tcprstat ~
 
-tcprstat is a pcap-based tool that extracts information about TCP response
+tcprstat is a pcap-based tool that  extracts information about TCP response
 times.
 
 It works by sniffing for TCP "requests" (inbound packets) and measures the time
